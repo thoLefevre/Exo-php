@@ -5,20 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styleexo2.css" />
     <title>Exercice 2</title>
+    <link rel="stylesheet" href="exo.css"
 </head>
 
 <body>
     <?php
-    $tableau = array(1,2,3,4,5);
-    echo '<tr><table>';
-    for ($i =0; $i<5; $i++){
-        echo '<td>'.$tableau[$i]."</td>";
-    }
-    echo '</tr></table>';
-
-
-    echo "<br>";
-    
+    $NombreAléatoire= rand (0,100);
+    for $NombreAléatoire();
     ?>
 </body>
 </html>
