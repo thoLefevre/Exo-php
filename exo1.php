@@ -1,16 +1,17 @@
 <html>
- <head> <title>formulaire.html</title> </head>
+ <head> <title>exo1</title> </head>
+<link rel="stylesheet" href="exo.css"
 <body>
-<form action="form1.php" method="post">
- Votre nom: <input type="text" name="nom">
- <br>
- <input type="submit .....>
- </form>
+<?php
+        $NombreAléatoire = rand ( 0 , 100 );
+        if ($NombreAléatoire % 2 == 0)
+        { 
+        echo "<p class=red>$NombreAléatoire est Paire</p>";
+        }
+        else
+        {
+        echo "<p class=blue>$NombreAléatoire est  Impaire</p>";
+        }
+    ?>
 </body>
-</html> 
-
-
-
-
-
-
+    </html> 
